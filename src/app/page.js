@@ -111,7 +111,7 @@ export default function Home() {
         {matchedCards.length === cards.length && matchedCards.length > 0 && (
           <div className="bg-yellow-400/20 border border-yellow-400/50 p-4 rounded-xl mb-2 animate-bounce text-center backdrop-blur-sm">
              <p className="text-yellow-300 font-bold">
-               🎉 Selamat! Selesai dalam {moves} percobaan!
+               🎉 Selamat! Selesai dengan waktu {seconds} detik dengan {moves} percobaan!
              </p>
           </div>
         )}
